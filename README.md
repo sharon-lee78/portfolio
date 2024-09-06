@@ -1,10 +1,12 @@
-# Data Science
+## Education
+**University of California, Santa Barbara | Sep 2021-Jun 2024**
+- B.S., Statistics and Data Science
+- Minor in Spatial Studies
 
-### Education
-Statistics and Data Science, BS
+## Skills: Python, R, SQL, SAS, MATLAB
 
 ### Experience
-Data Team Staff
+**Undergraduate Research Assistant | EDGE La
 - 11
 - 22
 
