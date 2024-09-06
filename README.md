@@ -12,8 +12,3 @@ Hi, I'm Sharon Lee, ...
 **Undergraduate Research Assistant | EDGE Lab
 - 11
 - 22
-
-### Projects
-Airbnb
-- 11
-- 22
