@@ -6,3 +6,5 @@ permalink: /projects/
 
 ## Portfolio
 
+### [Airbnb Price Prediction](
+
