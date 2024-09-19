@@ -1,9 +1,3 @@
 title: Sharon Lee
 logo: /images/IMG_9287.jpg
 theme: jekyll-theme-minimal
-
-navigation:
-  - name: Home
-    link: /
-  - name: Projects
-    link: /projects/
