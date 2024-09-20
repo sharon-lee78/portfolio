@@ -6,6 +6,8 @@ title: Sharon Lee
 ## About Me
 Hi, I'm Sharon Lee, a recent graduate from UCSB with a background in statistics, data science, and data analytics, and a passion for using data to solve real-world problems.
 
+* * *
+
 ## Education
 **University of California, Santa Barbara | Sep 2021 - Jun 2024**
 - B.S., Statistics and Data Science
@@ -26,6 +28,7 @@ Hi, I'm Sharon Lee, a recent graduate from UCSB with a background in statistics,
 - Analyzed a wide range of topics including walkability across UC campuses and crime rates around the Santa Barbara community, collaborating with the editor team
 - Utilized Python and ArcGIS to visualize heatmaps of walkability scores and report the findings
 
+* * *  
 ## Projects
 ### [Airbnb Price Prediction](project1.md)
 ![Project 1 Image](images/Airbnb_Logo.jpg)  
