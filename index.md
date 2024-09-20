@@ -12,18 +12,19 @@ Hi, I'm Sharon Lee, a recent graduate from UCSB with a background in statistics,
 - Minor in Spatial Studies
 
 ## Skills
-Python, R, SQL, SAS, MATLAB, MS Excel
+- **Programming Languages**: Python, R, SQL, SAS
+- **Programming Packages/Tools**: Pandas, NumPy, Matplotlib, TensorFlow, Keras, BeautifulSoup, LangChain
+- **Other Skills**: Data Visualization, Machine Learning, Statistical Analysis, Jupyter Notebook, GIS, MS Excel
 
 ## Experience
-> **Research Assistant | Oct 2023-Aug 2024**
+**Research Assistant @ UCSB | Oct 2023 - Aug 2024**
+- Performed cleaning and analysis of spatial data for agricultural economics research
+- Visualized the geographic distribution of subsidized fields in Brazil using 95,000,000+ rows of dataset
+- Developed an independent research project analyzing the effectiveness of Brazil’s ABC Plan in restoring degraded pastures, focusing on key indicators of soil carbon levels and pasture quality
 
-- Perform cleaning and analysis of spatial data for agricultural economics research
-- Visualize the geographic distribution of subsidized fields in Brazil using 95,000,000+ rows of dataset
-- Develop an independent research project analyzing the effectiveness of Brazil’s ABC Plan in restoring degraded
-pastures, focusing on key indicators of soil carbon levels and pasture quality
-
-**Research Assistant @ UC Santa Barbara**  
-- Conducted spatial data analysis to support urban development studies.
+**Data Team Staff @ Daily Nexus, UCSB | Mar 2022 - Dec 2023**
+- Analyzed a wide range of topics including walkability across UC campuses and crime rates around the Santa Barbara community, collaborating with the editor team
+- Utilized Python and ArcGIS to visualize heatmaps of walkability scores and report the findings
 
 ## Projects
 ### [Airbnb Price Prediction](project1.md)
