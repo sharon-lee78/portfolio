@@ -15,8 +15,8 @@ Hi, I'm Sharon Lee, a recent graduate from UCSB with a background in statistics,
 Python, R, SQL, SAS, MATLAB, MS Excel
 
 ## Experience
-**Research Assistant | Oct 2023-Aug 2024**
-> UCSB  
+> **Research Assistant | Oct 2023-Aug 2024**
+
 - Perform cleaning and analysis of spatial data for agricultural economics research
 - Visualize the geographic distribution of subsidized fields in Brazil using 95,000,000+ rows of dataset
 - Develop an independent research project analyzing the effectiveness of Brazil’s ABC Plan in restoring degraded
