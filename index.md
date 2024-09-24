@@ -30,6 +30,10 @@ Hi, I'm Sharon Lee, a recent graduate from UCSB with a background in statistics,
 
 * * *  
 ## Projects
-### [Airbnb Price Prediction](project1.md)
-![Project 1 Image](images/Airbnb_Logo.jpg)  
-A brief description of Project 1. Click the image to learn more.
+### [Classification with Large Language Models](npcapstone.md)  
+![Capstone Logo](images/capstone_Logo.png)  
+- Developed an ontology system to streamline the categorization of customer data, aligning organizational objectives with supporters profiles more precisely
+- Web scraped using BeautifulSoup in Python to extract organizations data from customer websites
+- Designed 10 prompts using ChatGPT-4 for each classification category
+- Passed text data of 9000+ customers into the LLMs such as Mistral and Llama using the prompts generated and gathered alignment score outputs in JSON format, resulting in 98% accuracy  
+_Click the image to learn more._
