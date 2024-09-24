@@ -30,7 +30,7 @@ Hi, I'm Sharon Lee, a recent graduate from UCSB with a background in statistics,
 
 * * *  
 ## Projects
-### [Classification with Large Language Models](nbcapstone.md)  
+### [Classification with Large Language Models](./nbcapstone.html)  
 ![Capstone Logo](images/capstone_Logo.png)  
 - Developed an ontology system to streamline the categorization of customer data, aligning organizational objectives with supporters profiles more precisely
 - Web scraped using BeautifulSoup in Python to extract organizations data from customer websites
