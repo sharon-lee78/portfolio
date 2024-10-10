@@ -57,6 +57,7 @@ To fit the GARCH model, we first apply an AR model to the dataset and analyze th
 ## Results  
 ### Results from SARIMA (p, d, q) x (P, D, Q)
 
+> Figure 2: 
 To begin, the time series of Netflix’s stock price was set up using the NFLX dataset, with a frequency of 252 trading days per year (since the stock market only operates on weekdays). Over the five-year period, the stock price shows an overall upward trend, without a clear seasonal pattern.
 
-
+d~3~O<sub>subscript</sub>
