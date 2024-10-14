@@ -37,3 +37,9 @@ Hi, I'm Sharon Lee, a recent graduate from UCSB with a background in statistics,
 - Designed 10 prompts using ChatGPT-4 for each classification category
 - Passed text data of 9000+ customers into the LLMs such as Mistral and Llama using the prompts generated and gathered alignment score outputs in JSON format, resulting in 98% accuracy  
 _Click the image to learn more._
+
+### [NETFLIX Stock Forecasting](https://rpubs.com/sharon0708/nflxtimeseries)
+![nflx Logo](images/nflx/nflx_dist.png)
+- Applied ARIMA and GARCH models to analyze and forecast Netflix stock price trends using time series data
+- Developed and validated predictive models, achieving satisfactory results in diagnostic tests, including ACF, PACF, and Ljung-Box
+_Click the image to learn more._
