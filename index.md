@@ -48,4 +48,10 @@ _Click the image to learn more._
 ![gasoline_Logo](images/Price_Plot.png)  
 - Generated LSTM and ARIMA models to forecast future gasoline prices in California, employing machine learning techniques within R and TensorFlow  
 - Evaluated model performance using Mean Absolute Error as a metric, determining the superior accuracy of LSTM models with MAE of 0.08 in capturing the volatile nature of gasoline prices  
-_Click the image to learn more._  
+_Click the image to learn more._
+
+## [Airbnb Price Prediction](./PSTAT131-FinalProject.html)  
+![airbnb_Logo](images/Airbnb_Logo.jpg)  
+- Performed data cleaning, visualization, and machine learning with KNN, decision trees, and random forest
+- Identified the random forest model as the most effective, achieving an RMSE of 88.1  
+_Click the image to learn more._
