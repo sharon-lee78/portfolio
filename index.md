@@ -43,3 +43,11 @@ _Click the image to learn more._
 - Applied ARIMA and GARCH models to analyze and forecast Netflix stock price trends using time series data
 - Developed and validated predictive models, achieving satisfactory results in diagnostic tests, including ACF, PACF, and Ljung-Box
 _Click the image to learn more._
+
+### [Gasoline Prices Time Series](./vignette.html)
+![gasoline_Logo](images/Price_Plot.png)  
+- Generated LSTM and ARIMA models to forecast future gasoline prices in California, employing machine learning
+techniques within R and TensorFlow  
+- Evaluated model performance using Mean Absolute Error as a metric, determining the superior accuracy of LSTM
+models with MAE of 0.08 in capturing the volatile nature of gasoline prices
+_Click the image to learn more._  
