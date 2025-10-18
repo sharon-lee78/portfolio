@@ -10,6 +10,9 @@ I'm currently pursuing my Master's in Applied Data Science at the University of 
 * * *
 
 ## Education
+**University of Chicago | Sep 2025 - Dec 2026**
+- M.S., Applied Data Science  
+  
 **University of California, Santa Barbara | Sep 2021 - Jun 2024**
 - B.S., Statistics and Data Science
 - Minor in Spatial Studies
@@ -20,6 +23,12 @@ I'm currently pursuing my Master's in Applied Data Science at the University of 
 - **Other Skills**: Data Visualization, Machine Learning, Statistical Analysis, Jupyter Notebook, GIS, MS Excel
 
 ## Experience
+**Data Scientist (Contract) @ NationBuilder | Jan 2024 - Jun 202**
+- Developed an ontology system to streamline the categorization of customer data, aligning organizational objectives with supporters profiles more precisely
+- Web scraped using BeautifulSoup in Python to extract organizations data from customer websites
+- Designed 10 prompts using ChatGPT-4 for each classification category
+- Passed text data of 9000+ customers into the LLMs such as Mistral and Llama using the prompts generated and gathered alignment score outputs in JSON format, resulting in 98% accuracy
+
 **Research Assistant @ UCSB | Oct 2023 - Aug 2024**
 - Performed cleaning and analysis of spatial data for agricultural economics research
 - Visualized the geographic distribution of subsidized fields in Brazil using 95,000,000+ rows of dataset
@@ -30,14 +39,7 @@ I'm currently pursuing my Master's in Applied Data Science at the University of 
 - Utilized Python and ArcGIS to visualize heatmaps of walkability scores and report the findings
 
 * * *  
-## Projects
-### Classification with Large Language Models
-- Developed an ontology system to streamline the categorization of customer data, aligning organizational objectives with supporters profiles more precisely
-- Web scraped using BeautifulSoup in Python to extract organizations data from customer websites
-- Designed 10 prompts using ChatGPT-4 for each classification category
-- Passed text data of 9000+ customers into the LLMs such as Mistral and Llama using the prompts generated and gathered alignment score outputs in JSON format, resulting in 98% accuracy  
-_Click the image to learn more._
-
+## Projects  
 ### [NETFLIX Stock Forecasting](https://rpubs.com/sharon0708/nflxtimeseries)
 ![nflx Logo](images/nflx/nflx_dist.png)
 - Applied ARIMA and GARCH models to analyze and forecast Netflix stock price trends using time series data  
