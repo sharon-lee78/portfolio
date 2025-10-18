@@ -4,7 +4,8 @@ title: Sharon Lee
 ---
 
 ## About Me
-Hi, I'm Sharon Lee, a recent graduate from UCSB with a background in statistics, data science, and data analytics, and a passion for using data to solve real-world problems.
+Hi, I'm Sharon Lee!  
+I'm currently pursuing my Master's in Applied Data Science at the University of Chicago, where I focus on applying machine learning, statistical modeling, and cloud-based tools to solde data-driven problems. I enjoy building scalable models and analytical workflows that bridge data, technology, and real-world impact.
 
 * * *
 
@@ -30,8 +31,7 @@ Hi, I'm Sharon Lee, a recent graduate from UCSB with a background in statistics,
 
 * * *  
 ## Projects
-### [Classification with Large Language Models](./nbcapstone.html)  
-![Capstone Logo](images/NB/capstone_Logo.png)  
+### Classification with Large Language Models
 - Developed an ontology system to streamline the categorization of customer data, aligning organizational objectives with supporters profiles more precisely
 - Web scraped using BeautifulSoup in Python to extract organizations data from customer websites
 - Designed 10 prompts using ChatGPT-4 for each classification category
@@ -53,5 +53,5 @@ _Click the image to learn more._
 ## [Airbnb Price Prediction](./PSTAT131-FinalProject.html)  
 ![airbnb_Logo](images/Airbnb_Logo.jpg)  
 - Performed data cleaning, visualization, and machine learning with KNN, decision trees, and random forest
-- Identified the random forest model as the most effective, achieving an RMSE of 88.1  
+- Identified the random forest model as the most effective, achieving an RMSE of 8.1  
 _Click the image to learn more._
