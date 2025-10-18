@@ -58,7 +58,7 @@ _Click the title to learn more._
 - Evaluated model performance using Mean Absolute Error as a metric, determining the superior accuracy of LSTM models with MAE of 0.08 in capturing the volatile nature of gasoline prices  
 _Click the title to learn more._
 
-## [Airbnb Price Prediction](./PSTAT131-FinalProject.html)  
+### [Airbnb Price Prediction](./PSTAT131-FinalProject.html)  
 ![airbnb_Logo](images/Airbnb_Logo.jpg)  
 - Performed data cleaning, visualization, and machine learning with KNN, decision trees, and random forest
 - Identified the random forest model as the most effective, achieving an RMSE of 8.1  
