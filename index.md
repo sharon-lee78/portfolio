@@ -19,7 +19,7 @@ I am pursuing an M.S. in Applied Data Science at the University of Chicago (expe
 
 Forecasting hourly taxi demand in Chicago from 2022 onward, built from 30M+ trips aggregated with SoQL. A seasonal naive baseline (same hour last week) won 2/3 normal test windows against tuned Prophet and SARIMAX, but lost both New Year holiday windows, where copying last week no longer works.
 
-*Python · Prophet · statsmodels · SoQL* | [Code](https://github.com/sharon-lee78/taxi-demand-forecasting)
+*Python · Prophet · statsmodels · SoQL*
 
 ### [image2playlist: Photo-to-Playlist Recommendation](https://github.com/sharon-lee78/image2playlist)
 ![Sunset photo detected as Late Night Drive](images/image2playlist/vibe_detection.png)
@@ -32,7 +32,7 @@ Upload a photo and get a playlist that fits its mood. CLIP places the photo and 
 
 The live demo is offline because Spotify API access expired; screenshots are from an earlier run.
 
-*Python · PyTorch · CLIP · Streamlit* | [Code](https://github.com/sharon-lee78/image2playlist)
+*Python · PyTorch · CLIP · Streamlit*
 
 ### [Classifying Organizations by Political Ideology with LLMs](./nbproject)
 ![Average ideology alignment by state](images/NB/fig4.png)
@@ -41,7 +41,7 @@ Capstone with NationBuilder. Scored website text from 325 organizations against 
 
 **My role:** I owned the political ideology track (the project also covered cause and religious ideology) and wrote the text preprocessing that feeds website content into the LLM pipeline.
 
-*Python · LangChain · Llama 3 · GPT-4 · Groq* | [Write-up](./nbproject)
+*Python · LangChain · Llama 3 · GPT-4 · Groq*
 
 * * *
 
