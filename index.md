@@ -4,23 +4,28 @@ title: Sharon Lee
 ---
 
 ## About Me
-Hi, I'm Sharon Lee!  
-I'm currently pursuing my Master's in Applied Data Science at the University of Chicago, where I focus on applying machine learning, statistical modeling, and cloud-based tools to solde data-driven problems. I enjoy building scalable models and analytical workflows that bridge data, technology, and real-world impact.
+I am pursuing an M.S. in Applied Data Science at the University of Chicago (expected December 2026) and am seeking full-time Data Scientist roles. My focus areas are machine learning, time series forecasting, and applied AI with large language models, with hands-on experience in large-scale and geospatial data. I am most interested in reading patterns in how people behave and using them to make decisions and processes more efficient.
+
+[LinkedIn](https://linkedin.com/in/sharonlee07) · [GitHub](https://github.com/sharon-lee78) · sharonlee@uchicago.edu
 
 * * *
 
 ## Education
-**University of Chicago | Sep 2025 - Dec 2026**
-- M.S., Applied Data Science  
-  
-**University of California, Santa Barbara | Sep 2021 - Jun 2024**
-- B.S., Statistics and Data Science
-- Minor in Spatial Studies
+**University of Chicago** | Sep 2025 – Dec 2026 (expected)  
+M.S., Applied Data Science | GPA: 4.0  
+*Relevant coursework:* Machine Learning I & II, Python for ML Engineering, Statistical Models, Time Series Analysis and Forecasting, Big Data and Cloud Computing, Advanced Computer Vision with Deep Learning, Generative AI: Principles & Applications (in progress), Bayesian Machine Learning with Generative AI Applications (in progress)
+
+**University of California, Santa Barbara** | Sep 2021 – Jun 2024  
+B.S., Statistics and Data Science; Minor in Spatial Studies | GPA: 3.74 (Major: 3.8)
 
 ## Skills
-- **Programming Languages**: Python, R, SQL, SAS
-- **Programming Packages/Tools**: Pandas, NumPy, Matplotlib, TensorFlow, Keras, BeautifulSoup, LangChain
-- **Other Skills**: Data Visualization, Machine Learning, Statistical Analysis, Jupyter Notebook, GIS, MS Excel
+- **Languages:** Python, R, SQL, SAS
+- **Machine Learning & Statistics:** scikit-learn, PyTorch, TensorFlow/Keras, statsmodels, Prophet
+- **Data Processing:** pandas, NumPy, Spark (PySpark, MLlib), Hadoop, Hive
+- **LLMs & AI Tools:** LangChain, OpenAI API, Llama 3, Groq, n8n
+- **Visualization:** Matplotlib, Seaborn, Tableau, Power BI
+- **Cloud & Deployment:** GCP (Dataproc, Cloud Storage), Docker, Linux, FastAPI, Streamlit, Git
+- **Geospatial & Web Data:** QGIS, ArcGIS, BeautifulSoup
 
 ## Experience
 **Data Scientist (Contract) @ NationBuilder | Jan 2024 - Jun 2024**
