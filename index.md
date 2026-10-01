@@ -46,7 +46,7 @@ Capstone with NationBuilder. Scored website text from 325 organizations against 
 ### [Amazon Review Near-Duplicate Detection](./amazon)
 ![Distribution of text duplicate counts](images/amazon/text_duplicate_counts.png)
 
-Did Amazon reviews start repeating each other more after generative AI tools became widely available in late 2022? I cleaned and profiled 64.7M reviews (52.4GB) with PySpark on GCP Dataproc. In Automotive, 18.3% of review texts are exact copies of another review, mostly one-liners like "Good" and "Works great." MinHash LSH on a 1% sample did not show more near-duplicates after 2022, though the write-up explains why that comparison is not conclusive.
+How much of Amazon review text is repeated? I cleaned and profiled 64.7M reviews (52.4GB) with PySpark on GCP Dataproc. In Automotive, 18.3% of reviews share their exact text with another review, mostly short phrases like "Good" and "Works great," and most repeated titles just restate the star rating. I also used MinHash LSH to find near-duplicates among longer reviews.
 
 *PySpark · Spark MLlib · GCP Dataproc*
 
