@@ -46,7 +46,7 @@ Capstone with NationBuilder. Scored website text from 325 organizations against 
 ### [Amazon Review Near-Duplicate Detection](./amazon)
 ![Distribution of text duplicate counts](images/amazon/text_duplicate_counts.png)
 
-Cleaned and profiled 64.7M Amazon reviews with PySpark on GCP Dataproc, then measured how often Automotive reviews repeat. 18.3% of review texts are exact copies of another review, mostly one-liners like "Good" and "Works great." For longer reviews, MinHash LSH on a 1% sample found near-duplicates (Jaccard similarity of 0.8 or higher) for 3.2% of reviews.
+Cleaned and profiled 64.7M Amazon reviews (52.4GB) with PySpark on GCP Dataproc, then measured how often Automotive reviews repeat. 18.3% of review texts are exact copies of another review, mostly one-liners like "Good" and "Works great." For longer reviews, MinHash LSH on a 1% sample found near-duplicates (Jaccard similarity of 0.8 or higher) for 3.2% of reviews.
 
 *PySpark · Spark MLlib · GCP Dataproc*
 

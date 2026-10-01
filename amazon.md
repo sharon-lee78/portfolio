@@ -10,7 +10,7 @@ title: Amazon Review Near-Duplicate Detection
 How much of what people write in Amazon reviews is reused, and can near-duplicate reviews be found at this scale? I focused on the Automotive category, which is the largest category in the product metadata.
 
 ## Data and Cleaning
-The data has 64.7M reviews and 4.3M product records, stored in Google Cloud Storage and processed with PySpark on a Dataproc cluster. Cleaning steps:
+The data has 64.7M reviews (52.4GB) and 4.3M product records, stored in Google Cloud Storage and processed with PySpark on a Dataproc cluster. Cleaning steps:
 
 - Removed 88,032 reviews with empty text or a negative helpful-vote count
 - Converted millisecond timestamps to datetimes
