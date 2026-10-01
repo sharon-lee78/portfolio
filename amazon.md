@@ -7,7 +7,7 @@ title: Amazon Review Near-Duplicate Detection
 #### Big Data and Cloud Computing, University of Chicago | Dec 2025
 
 ## Question
-How much of what people write in Amazon reviews is reused, and can near-duplicate reviews be found at this scale? I focused on the Automotive category, which is the largest category in the product metadata.
+Generative AI tools became widely available in late 2022. I wanted to know whether reviews written after that point repeat each other more often, which could be one sign of AI-written reviews. I focused on the Automotive category, which is the largest category in the product metadata.
 
 ## Data and Cleaning
 The data has 64.7M reviews (52.4GB) and 4.3M product records, stored in Google Cloud Storage and processed with PySpark on a Dataproc cluster. Cleaning steps:
@@ -41,15 +41,21 @@ Most texts appear once, but a small set of generic phrases repeats tens of thous
 Exact matching misses reviews that are copied with small edits, so I used MinHash LSH:
 
 1. Took a 1% random sample of Automotive reviews. The full category was too large to run pairwise matching on the course cluster.
-2. Removed punctuation and stopwords, and kept reviews with at least three remaining words, since one-word reviews were already covered above.
+2. Removed punctuation and stopwords, and kept reviews with at least three remaining words, since one-word reviews were already covered above. I kept the original capitalization on purpose, since identical formatting is part of what AI-written reviews might share.
 3. Turned each review into a word set with CountVectorizer and fit MinHashLSH with 5 hash tables.
 4. Treated two reviews as near-duplicates when their Jaccard similarity was 0.8 or higher.
 
 9,202 of the 286,750 sampled reviews (3.2%) had a near-duplicate in the sample. Within each of the five most-reviewed products, near-duplicates were almost absent (2 reviews in total).
 
-## Limitations
+## Did Duplication Go Up After 2022?
+In the sample, 3.4% of pre-2022 reviews had a near-duplicate, compared with 1.2% of 2022–2023 reviews. On its face that points to less duplication, not more, but I don't think this data settles the question:
 
-- **The 3.2% is a lower bound.** Sampling reviews at random means a review's match is only found if the match was also sampled. Sampling by product, keeping every review of each selected product, would keep within-product duplicates intact.
-- **Comparing time periods.** Pre-2022 reviews had a near-duplicate rate of 3.4% and 2022–2023 reviews had 1.2%, but the older group is about four times larger, which by itself raises the chance of finding a match. I would compare equal-sized samples before reading this as a real decline.
+- The pre-2022 group is about four times larger, which by itself raises the chance of finding a match.
+- The split is at January 2022, but ChatGPT was released at the end of November 2022, so most of the recent group was written before it. The data ends in September 2023, leaving only about ten months after the release.
+- With random sampling, a review's match is only found if the match was also sampled, so every rate here is a lower bound.
+
+## What I Would Change
+- Split at December 2022 and compare equal-sized samples from each side
+- Sample by product instead of by review, keeping every review of each selected product so duplicates within a product stay together
 
 Code: [Data Cleaning](https://github.com/sharon-lee78/portfolio/blob/main/amazon-reviews/1_data_cleaning.ipynb) · [EDA](https://github.com/sharon-lee78/portfolio/blob/main/amazon-reviews/2_eda.ipynb) · [Analysis](https://github.com/sharon-lee78/portfolio/blob/main/amazon-reviews/3_analysis.ipynb)
