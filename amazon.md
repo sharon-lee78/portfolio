@@ -53,7 +53,13 @@ Exact matching misses reviews that are copied with small edits, so I used MinHas
 - The count includes one review from each matched pair, not both.
 
 ## Conclusion
-Repetition in Amazon reviews is common, and the most repeated text is short and generic. Nearly one in five Automotive reviews shares its exact text with another review, mostly phrases like "Good" or "Works great," and most titles just restate the star rating. These reviews add volume but carry about as much information as the star rating, so anyone building on review text, such as sentiment models, summaries, or fake-review detection, should separate them out first. Longer reviews are also near-copied, but the sampling design only gives a lower bound on how often.
+Repetition in Amazon reviews is common, and the most repeated text is short and generic. Nearly one in five Automotive reviews shares its exact text with another review, mostly phrases like "Good" or "Works great," and the most common titles just restate the star rating. Longer reviews are also near-copied, but the sampling design only gives a lower bound on how often.
+
+What this means for teams that use review data:
+
+- **Fake-review detection should not rely on exact matches.** Most exact repeats are ordinary short phrases that many real customers write, so flagging identical text would catch a large number of legitimate reviews. Copied or templated reviews are better found among longer reviews with near-duplicate matching, which is why I used MinHash LSH for that part.
+- **Review text needs deduplication before it goes into a model.** Phrases like "Good" appearing tens of thousands of times would pull sentiment or summarization models toward generic language, while adding little beyond the star rating. Separating or down-weighting these reviews should come before training.
+- **Review count overstates how much customers actually said.** A product with many reviews may have a large share of one- or two-word reviews, so review count alone is a weak signal of how much written feedback exists. Counting reviews with substantive text would be a more honest measure.
 
 ## What I Would Change
 - Sample by product instead of by review, keeping every review of each selected product, so near-duplicates stay together and the rate can be estimated rather than bounded
