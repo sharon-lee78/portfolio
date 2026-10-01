@@ -53,37 +53,37 @@ How much of Amazon review text is repeated? I cleaned and profiled 64.7M reviews
 * * *
 
 ## Experience
-**AI Engineer Intern, Bayesoft** | Jul 2026 – Present
+**AI Engineer Intern, Bayesoft** &#124; Jul 2026 – Present
 
 - Evaluated an agentic AI feature across 20+ live test runs and gave the go/no-go recommendation.
 - Audited the agent's prompts and backend logic, found two rule violations, and defined the required fixes.
 
-**Data Scientist (Capstone), HERE Technologies** | Mar 2026 – Present
+**Data Scientist (Capstone), HERE Technologies** &#124; Mar 2026 – Present
 
 - Building a Python and QGIS pipeline that detects road network changes from large-scale GPS trajectory data, using DBSCAN as a baseline and testing other unsupervised spatial methods.
 
-**AI Extern (Client: Wayfair), Extern** | Nov 2025 – Jan 2026
+**AI Extern (Client: Wayfair), Extern** &#124; Nov 2025 – Jan 2026
 
 - Built three LLM agents in n8n that compare 50+ competitor listings on price and features, cutting manual research time by about 40%.
 
-**Data Scientist (Industry Collaboration), NationBuilder** | Jan 2024 – Jun 2024
+**Data Scientist (Industry Collaboration), NationBuilder** &#124; Jan 2024 – Jun 2024
 
 - Classified customer organizations with LLM prompts (GPT-4, Llama 3), reaching 98% agreement with expert labels.
 - Automated website extraction and categorization for 9,000+ records in Python, cutting manual work by about 80%.
 
-**Research Assistant, EDGE Lab, UCSB** | Oct 2023 – Sep 2024
+**Research Assistant, EDGE Lab, UCSB** &#124; Oct 2023 – Sep 2024
 
 - Built an R pipeline to measure soil carbon and pasture quality across Brazilian pastures, rebuilding land boundaries from 95M+ coordinate records and cutting processing time by about 70%.
 
 * * *
 
 ## Education
-**University of Chicago** | Sep 2025 – Dec 2026 (expected)  
-M.S., Applied Data Science | GPA: 4.0  
+**University of Chicago** &#124; Sep 2025 – Dec 2026 (expected)  
+M.S., Applied Data Science &#124; GPA: 4.0  
 *Relevant coursework:* Machine Learning I & II, Python for ML Engineering, Statistical Models, Time Series Analysis and Forecasting, Big Data and Cloud Computing, Advanced Computer Vision with Deep Learning, Generative AI: Principles & Applications (in progress), Bayesian Machine Learning with Generative AI Applications (in progress)
 
-**University of California, Santa Barbara** | Sep 2021 – Jun 2024  
-B.S., Statistics and Data Science; Minor in Spatial Studies | GPA: 3.74 (Major: 3.8)
+**University of California, Santa Barbara** &#124; Sep 2021 – Jun 2024  
+B.S., Statistics and Data Science; Minor in Spatial Studies &#124; GPA: 3.74 (Major: 3.8)
 
 * * *
 
