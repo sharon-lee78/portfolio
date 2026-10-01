@@ -28,20 +28,22 @@ B.S., Statistics and Data Science; Minor in Spatial Studies | GPA: 3.74 (Major: 
 - **Geospatial & Web Data:** QGIS, ArcGIS, BeautifulSoup
 
 ## Experience
-**Data Scientist (Contract) @ NationBuilder | Jan 2024 - Jun 2024**
-- Automated data extraction from customer websites through web scraping using BeautifulSoup in Python
-- Preprocessed and analyzed 9,000+ customer records to prepare text data for classification
-- Engineered and iteratively refined prompts for text classification tasks
-- Implemented python pipeline for processing results in structured JSON format
+**AI Engineer Intern, Bayesoft** | Jul 2026 – Present
+- Evaluated an agentic AI feature across 20+ live test runs and gave the go/no-go recommendation.
+- Audited the agent's prompts and backend logic, found two rule violations, and defined the required fixes.
 
-**Research Assistant @ UCSB | Oct 2023 - Aug 2024**
-- Performed cleaning and analysis of spatial data for agricultural economics research
-- Visualized the geographic distribution of subsidized fields in Brazil using 95,000,000+ rows of dataset
-- Developed an independent research project analyzing the effectiveness of Brazil’s ABC Plan in restoring degraded pastures, focusing on key indicators of soil carbon levels and pasture quality
+**Data Scientist (Capstone), HERE Technologies** | Mar 2026 – Present
+- Building a Python and QGIS pipeline that detects road network changes from large-scale GPS trajectory data, using DBSCAN as a baseline and testing other unsupervised spatial methods.
 
-**Data Team Staff @ Daily Nexus, UCSB | Mar 2022 - Dec 2023**
-- Analyzed a wide range of topics including walkability across UC campuses and crime rates around the Santa Barbara community, collaborating with the editor team
-- Utilized Python and ArcGIS to visualize heatmaps of walkability scores and report the findings
+**AI Extern (Client: Wayfair), Extern** | Nov 2025 – Jan 2026
+- Built three LLM agents in n8n that compare 50+ competitor listings on price and features, cutting manual research time by about 40%.
+
+**Data Scientist (Industry Collaboration), NationBuilder** | Jan 2024 – Jun 2024
+- Classified customer organizations with LLM prompts (GPT-4, Llama 3), reaching 98% agreement with expert labels.
+- Automated website extraction and categorization for 9,000+ records in Python, cutting manual work by about 80%.
+
+**Research Assistant, EDGE Lab, UCSB** | Oct 2023 – Sep 2024
+- Built an R pipeline to measure soil carbon and pasture quality across Brazilian pastures, rebuilding land boundaries from 95M+ coordinate records and cutting processing time by about 70%.
 
 * * *  
 ## Projects  
